@@ -1,0 +1,46 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha 'tests/**/*.spec.js' --timeout 15000",
+    "test:models": "mocha 'tests/models/**/*.spec.js' --timeout 15000",
+    "test:routes": "mocha 'tests/routes/**/*.spec.js' --timeout 15000",
+    "test:integration": "mocha 'tests/**/*.spec.js' --timeout 15000",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed:admin": "node scripts/seedAdmin.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "express-async-handler": "^1.2.0",
+    "heroku": "^8.7.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.11",
+    "openai": "^6.15.0",
+    "pdfkit": "^0.17.2"
+  },
+  "devDependencies": {
+    "baseline-browser-mapping": "^2.9.17",
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2",
+    "mongodb-memory-server": "^10.0.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}

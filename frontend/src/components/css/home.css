@@ -1,0 +1,103 @@
+@media (min-width: 992px) {
+    .col-01 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+/* Header base */
+.chap-header {
+    position: relative;
+    z-index: 1020;
+  }
+  
+  .chap-header.is-sticky {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(8px);
+  }
+  
+  .chap-top {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .logo {
+    height: 44px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 576px) {
+    .logo { height: 40px; }
+    .chap-top { gap: 10px; }
+  }
+
+  .chap-search .form-control {
+    border-radius: 999px 0 0 999px;
+  }
+  .chap-search .btn {
+    border-radius: 0 999px 999px 0;
+  }
+
+  .chap-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  .chap-avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 999px;
+    font-weight: 800;
+    border: 1px solid rgba(0,0,0,0.10);
+    background: #fff;
+    color: #111;
+  }
+  
+  .chap-avatar:hover {
+    background: rgba(0,0,0,0.03);
+  }
+  
+  .chap-auth-btn {
+    font-weight: 700;
+  }
+
+  .chap-cart-btn {
+    width: 40px;
+    min-width: 40px;
+    padding: 0;
+  }
+
+  .chap-nav {
+    background: #111;
+  }
+  
+  .chap-nav .nav-link {
+    color: rgba(255,255,255,0.85);
+    border-radius: 999px;
+  }
+  
+  .chap-nav .nav-link:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.08);
+  }
+
+  .chap-nav .dropdown-toggle {
+    color: rgba(255,255,255,0.85);
+    padding: .5rem 1rem;
+    border-radius: 999px;
+  }
+  
+  .chap-nav .dropdown-toggle:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.08);
+  }
+  

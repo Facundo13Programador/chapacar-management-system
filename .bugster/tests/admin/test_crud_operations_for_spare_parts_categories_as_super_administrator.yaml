@@ -1,0 +1,37 @@
+name: Test CRUD operations for spare parts categories as super administrator
+page: categories
+page_path: /admin/categories
+task: Verify that a super administrator can successfully create, read, update, and
+  delete spare parts categories with proper validations and confirmations
+steps:
+- Navigate to the application home page
+- Click the 'Ingresar' (Login) link
+- Enter super administrator credentials in the login form
+- Click the 'Ingresar' (Login) button to submit
+- Verify successful login with user profile visible and admin navigation available
+- Click 'Panel del taller' (Workshop Panel) to access admin area
+- "Click 'Ir a categor\xEDas' button to access Categories management"
+- Verify categories listing displays with existing categories and CRUD buttons
+- Click '+ Nueva' (New) button to create a new category
+- Enter 'Amortiguadores' in the category name field
+- "Click 'Guardar categor\xEDa' (Save category) button"
+- "Verify success notification 'Categor\xEDa creada' appears and category count increases"
+- Click 'Editar' (Edit) button for the newly created category
+- "Modify the category name to 'Amortiguadores y Suspensi\xF3n'"
+- "Click 'Guardar categor\xEDa' button to save changes"
+- "Verify success notification 'Categor\xEDa actualizada' appears and name is updated\
+  \ in listing"
+- Click 'Borrar' (Delete) button for the test category
+- "Accept the confirmation dialog asking '\xBFBorrar esta categor\xEDa?'"
+- Verify category is removed from listing and category count decreases
+- Test editing an existing category to verify functionality works with pre-existing
+  data
+- Navigate back to categories listing to complete the test
+expected_result: All CRUD operations complete successfully with appropriate success
+  notifications, category count updates correctly, and existing categories remain
+  intact
+id: null
+project_id: null
+created_at: null
+updated_at: null
+file_path: null

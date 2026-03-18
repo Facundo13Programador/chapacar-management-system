@@ -1,0 +1,162 @@
+/* signin.css */
+
+.chap-auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(0,0,0,0.06), transparent 60%),
+      radial-gradient(900px 500px at 90% 30%, rgba(220, 0, 0, 0.08), transparent 55%),
+      #f7f7f7;
+  }
+  
+  .chap-auth-card {
+    width: 100%;
+    max-width: 460px;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+  
+  .chap-auth-brand {
+    padding: 22px 22px 14px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.04), transparent);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+  }
+  
+  .chap-auth-logo {
+    height: 52px;
+    width: auto;
+    display: inline-block;
+  }
+  
+  .chap-auth-subtitle {
+    margin-top: 8px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
+  }
+  
+  .chap-auth-body {
+    padding: 22px;
+  }
+  
+  .chap-input .input-group-text {
+    background: #f2f2f2;
+    border-color: rgba(0,0,0,0.12);
+  }
+  
+  .chap-input .form-control {
+    border-color: rgba(0,0,0,0.12);
+  }
+  
+  .chap-input .form-control:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,0.28);
+  }
+  
+  .chap-auth-btn {
+    padding: 10px 12px;
+    font-weight: 600;
+  }
+  
+  .chap-link {
+    color: #0b5ed7;
+    text-decoration: none;
+  }
+  
+  .chap-link:hover {
+    text-decoration: underline;
+  }
+  
+  .chap-divider {
+    position: relative;
+    text-align: center;
+  }
+  
+  .chap-divider span {
+    display: inline-block;
+    padding: 0 10px;
+    background: #fff;
+    color: rgba(0,0,0,0.55);
+    font-size: 12px;
+  }
+  
+  .chap-divider::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: rgba(0,0,0,0.12);
+    transform: translateY(-50%);
+    z-index: 0;
+  }
+  
+  .chap-divider span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .chap-help {
+    font-size: 12px;
+    margin-top: 6px;
+    color: rgba(0,0,0,0.60);
+  }
+  
+  .chap-help.is-error {
+    color: #b02a37;
+  }
+  
+  .chap-help.is-ok {
+    color: #146c43; 
+  }
+  
+  .chap-meter {
+    height: 8px;
+    background: rgba(0,0,0,0.08);
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  
+  .chap-meter > div {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 180ms ease;
+  }
+  
+  .chap-meter-label {
+    font-size: 12px;
+    margin-top: 6px;
+    color: rgba(0,0,0,0.60);
+  }
+  
+  .chap-hint-list {
+    margin: 8px 0 0;
+    padding-left: 16px;
+    font-size: 12px;
+    color: rgba(0,0,0,0.60);
+  }
+  
+  .chap-hint-list li {
+    margin: 2px 0;
+  }
+  
+  .chap-hint-list .ok {
+    color: #146c43;
+  }
+  
+  .chap-hint-list .bad {
+    color: #b02a37;
+  }
+  
+  .chap-input .form-control.is-valid {
+    border-color: rgba(20, 108, 67, 0.45);
+  }
+  
+  .chap-input .form-control.is-invalid {
+    border-color: rgba(176, 42, 55, 0.45);
+  }

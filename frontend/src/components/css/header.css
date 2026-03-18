@@ -1,0 +1,286 @@
+
+:root {
+    --chap-dark: #2f3b4b;    
+    --chap-dark-2: #263243;
+    --chap-border: #e9ecef;
+    --chap-muted: #6c757d;
+  }
+
+  .logo {
+    width: 190px;
+    position: relative;
+    height: 80px;
+    transition: 0.5s;
+  }
+  
+
+  .chap-header {
+    background: #fff;
+    border-bottom: 1px solid var(--chap-border);
+  }
+  
+
+  .chap-header.is-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+  }
+  
+
+  .chap-header .chap-top {
+    padding: 12px 0;
+  }
+  
+  .chap-header .chap-logo img {
+    height: 42px;       
+    width: auto;
+    display: block;
+  }
+  
+
+  .chap-header .container {
+    max-width: 1320px; 
+  }
+  
+
+  .chap-header .chap-search .input-group {
+    border: 1px solid var(--chap-border);
+    border-radius: 999px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    background: #fff;
+  }
+  
+  .chap-header .chap-search .input-group-text {
+    background: #f6f7f9;
+    border: 0;
+    color: var(--chap-muted);
+    font-weight: 600;
+    padding: 10px 14px;
+    white-space: nowrap;
+  }
+  
+  .chap-header .chap-search .form-control {
+    border: 0;
+    padding: 10px 14px;
+  }
+  
+  .chap-header .chap-search .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .chap-header .chap-search .btn {
+    border: 0;
+    padding: 10px 18px;
+    font-weight: 600;
+  }
+  
+
+  .chap-header .chap-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+
+  
+.chap-header .chap-admin-actions{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+  .chap-header .chap-actions .btn {
+    white-space: nowrap;
+  }
+  
+
+  .chap-header .chap-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    border: 1px solid var(--chap-border);
+    background: #fff;
+  }
+  
+  .chap-header .chap-avatar:hover {
+    background: #f6f7f9;
+  }
+  
+  
+  .chap-header .chap-nav {
+    background: var(--chap-dark);
+  }
+  
+  .chap-header .chap-nav .nav {
+    gap: 6px;
+  }
+  
+  .chap-header .chap-nav .nav-link {
+    color: rgba(255, 255, 255, 0.92) !important;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  
+  .chap-header .chap-nav .nav-link:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff !important;
+  }
+  
+  .chap-header .chap-nav .nav-link.active {
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff !important;
+  }
+  
+ 
+  .chap-header .chap-nav .dropdown-menu {
+    border: 1px solid var(--chap-border);
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    padding: 8px;
+  }
+  
+  .chap-header .chap-nav .dropdown-item {
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-weight: 600;
+  }
+  
+  .chap-header .chap-nav .dropdown-item:hover {
+    background: #f3f4f6;
+  }
+  
+
+  @media (max-width: 992px) {
+    .chap-header .chap-top {
+      padding: 10px 0;
+    }
+  
+    .chap-header .chap-logo img {
+      height: 38px;
+    }
+
+    .chap-header .chap-search {
+      width: 100%;
+    }
+  
+    .chap-header .chap-search .input-group {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .chap-header .chap-actions {
+      gap: 6px;
+    }
+  
+    
+    .chap-header .chap-search .input-group-text,
+    .chap-header .chap-search .form-control,
+    .chap-header .chap-search .btn {
+      padding-top: 9px;
+      padding-bottom: 9px;
+    }
+  }
+
+  .btn-chapacar {
+  --bs-btn-color: #D21814;
+    --bs-btn-bg: #D21814;
+    --bs-btn-border-color: #D21814;
+    --bs-btn-hover-color: #D21814;
+    --bs-btn-hover-bg: #D21814;
+    --bs-btn-hover-border-color: #D21814;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #D21814;
+    --bs-btn-active-bg: #D21814;
+    --bs-btn-active-border-color: #D21814;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #D21814;
+    --bs-btn-disabled-bg: #D21814;
+    --bs-btn-disabled-border-color: #D21814;
+    color: #fff !important;
+    background-color: #D21814 !important;
+  }
+
+  .chap-icon-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,.12);
+    background: #fff;
+    color: inherit;
+    padding: 0;
+  }
+
+.chap-auth-btn {
+  height: 40px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: #fff;
+  white-space: nowrap;
+}
+
+.chap-auth-btn:hover {
+  filter: brightness(0.98);
+}
+
+
+.chap-auth-btn:focus,
+.chap-auth-btn:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+  
+
+
+.chap-mech-btn{
+  border-radius: 999px;
+  height: 40px;
+  padding: 0 12px;
+  white-space: nowrap;
+}
+
+
+@media (max-width: 576px){
+  .chap-header .chap-actions{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .chap-mech-btn{
+    height: 36px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  
+  .chap-header .chap-top{
+    flex-wrap: wrap;
+  }
+  .chap-header .chap-search{
+    order: 3;
+    width: 100%;
+  }
+  .chap-header .chap-actions{
+    order: 2;
+  }
+}

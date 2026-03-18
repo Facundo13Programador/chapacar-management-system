@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "timestamp": 1770946516178,
+    "git": {
+      "branch": "feature/CH-67",
+      "commit": "6cb45146af84d2a93131074b52fc23339860f921"
+    }
+  },
+  "data": {
+    "frameworks": [
+      {
+        "id": "react",
+        "name": "React",
+        "dir_path": "/Users/gonzalogutierrez/WorkSpace/WorkPrivaty/training/frontend"
+      }
+    ],
+    "commands": {
+      "test": {
+        "firstExecuted": true
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+name: User Login Flow Test
+page: login
+page_path: /login
+task: Test the complete user login flow from homepage to successful authentication
+steps:
+- Navigate to the application homepage
+- Locate and click the 'Ingresar' (Sign In) link in the header
+- Verify the login form is displayed
+- Enter valid username in the username field
+- Enter valid password in the password field
+- Click the login/submit button
+- Verify successful authentication and redirect to user dashboard
+expected_result: User should be able to navigate to login page, enter credentials,
+  and successfully authenticate
+id: null
+project_id: null
+created_at: null
+updated_at: null
+file_path: null
